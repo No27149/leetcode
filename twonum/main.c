@@ -21,6 +21,11 @@ int main(void)
 	return 0;
 }
 
+/**
+ * 思路：
+ * 嵌套for循环，每一个数和剩余其他的数相加，比较
+ *
+ */
 int* twoSum(int *nums, int numSize, int target)
 {
 	int i = 0;
